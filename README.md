@@ -1,6 +1,6 @@
 # Project name: Online education zone
 
-Online education zone: [Create React App](https://confident-wright-95411c.netlify.app/).
+Online education zone: [click to open](https://confident-wright-95411c.netlify.app/).
 
 ## Project Description 
 - css framework bootstrap used
