@@ -6,7 +6,9 @@ const Course = (props) => {
         <div>
             <div className="col p-3 shadow border border-secondary rounded h-100">
                 <div className="card">
-                    <img className="h-100 w-100" src={img} alt="..." />
+                    <div className="text-center">
+                        <img className="h-100 w-100" src={img} alt="..." />
+                    </div>
                     <div className="card-body">
                         <h5 className="card-title">Course Name: {courseName}</h5>
                         <h4>Price: {price}</h4>

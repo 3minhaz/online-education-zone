@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAddressBook, faAddressCard, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
     return (
@@ -6,19 +8,19 @@ const Contact = () => {
             <h1 className="mb-5">Contact Info</h1>
             <div className="row ">
                 <div className="col-md-6">
-                    <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat.</p>
+                    <p>HBS Online courses are nothing like a typical sit-back-and-listen lecture. You’ll engage in a new activity every three to five minutes. Each element is designed to keep you interested, involved, and on your toes.</p>
                 </div>
                 <div className="col-md-6">
                     <div className="d-flex">
-                        <h6 className="me-2">ADDRESS:</h6>
+                        <h6 className="me-2"><FontAwesomeIcon className="me-2 fa-lg " icon={faAddressCard} />ADDRESS:</h6>
                         <p>  77 Indian St. Baltimore, MD 21206</p>
                     </div>
                     <div className="d-flex">
-                        <h6 className="me-2">Phone:</h6>
+                        <h6 className="me-2"><FontAwesomeIcon className="me-2 fa-lg " icon={faPhone} />Phone:</h6>
                         <p>+3233-332-334</p>
                     </div>
                     <div className="d-flex">
-                        <h6 className="me-2">Email:</h6>
+                        <h6 className="me-2"><FontAwesomeIcon className="me-2 fa-lg " icon={faEnvelope} />Email:</h6>
                         <p>elearny@example.com</p>
                     </div>
                 </div>

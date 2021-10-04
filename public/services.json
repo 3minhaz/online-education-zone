@@ -1,23 +1,5 @@
 [
     {
-        "img": "https://static9.depositphotos.com/1518767/1120/i/600/depositphotos_11201868-stock-photo-student-focused-on-his-homework.jpg",
-        "courseName": "How to use Barcode",
-        "price": 2000,
-        "courseInstructor": "John Smith"
-    },
-    {
-        "img": "https://img.freepik.com/free-photo/portrait-smiling-school-teacher-holding-books-classroom_107420-35631.jpg?size=626&ext=jpg",
-        "courseName": "A Glimpse of virtual",
-        "price": 3000,
-        "courseInstructor": "Jeena Davis"
-    },
-    {
-        "img": "https://img.freepik.com/free-photo/senior-male-professor-explaining-writing-green-chalkboard_23-2148200956.jpg?size=626&ext=jpg",
-        "courseName": "Economics",
-        "price": 5000,
-        "courseInstructor": "Steve Rojo"
-    },
-    {
         "img": "https://previews.123rf.com/images/belchonock/belchonock1312/belchonock131207395/25426298-young-teacher-with-books-near-chalkboard-in-school-classroom.jpg",
         "courseName": "E-commerce Management",
         "price": 8000,
@@ -42,6 +24,12 @@
         "courseInstructor": "John Stones"
     },
     {
+        "img": "https://img.freepik.com/free-photo/senior-male-professor-explaining-writing-green-chalkboard_23-2148200956.jpg?size=626&ext=jpg",
+        "courseName": "Economics",
+        "price": 5000,
+        "courseInstructor": "Steve Rojo"
+    },
+    {
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQ1SEUC_Rj98QxH-7fbgMMkpIJjtH2lg6TQ&usqp=CAU",
         "courseName": "Artifitial Intelligence",
         "price": 15000,
@@ -58,5 +46,17 @@
         "courseName": "Software Engineering",
         "price": 10000,
         "courseInstructor": "David Cameron"
+    },
+    {
+        "img": "https://img.freepik.com/free-photo/portrait-smiling-school-teacher-holding-books-classroom_107420-35631.jpg?size=626&ext=jpg",
+        "courseName": "A Glimpse of virtual",
+        "price": 3000,
+        "courseInstructor": "Jeena Davis"
+    },
+    {
+        "img": "https://static9.depositphotos.com/1518767/1120/i/600/depositphotos_11201868-stock-photo-student-focused-on-his-homework.jpg",
+        "courseName": "How to use Barcode",
+        "price": 2000,
+        "courseInstructor": "John Smith"
     }
 ]
