@@ -6,13 +6,13 @@ import './Courses.css';
 
 
 const Courses = () => {
-    const [courses, setCourses] = useState([]);
+    let [courses, setCourses] = useState([]);
     useEffect(() => {
-        fetch('./home.json')
+        fetch('./services.json')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
-
+    courses = courses.slice(0, 4);
     //course section added here
     return (
 
