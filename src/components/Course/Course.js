@@ -2,6 +2,7 @@ import React from 'react';
 
 const Course = (props) => {
     const { img, courseName, price, courseInstructor } = props.course;
+    // each course showed in cart dynamically here
     return (
         <div>
             <div className="col p-3 shadow border border-secondary rounded h-100">
