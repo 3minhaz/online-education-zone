@@ -1,3 +1,23 @@
+
+.header{
+    color: white;
+    position: relative;
+    animation-timing-function: linear;
+    animation: test 2s ;
+}
+@keyframes test {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
 .header-image img{
     width: 120px;
+}
+.nav-item{
+    color: white;
+    padding: 5px 8px;
+}
+.nav-item:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
 }
