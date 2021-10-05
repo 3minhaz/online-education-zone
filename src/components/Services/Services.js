@@ -12,7 +12,6 @@ const Services = () => {
 
     return (
         <div className="mx-5 my-4 row row-cols-1 row-cols-md-3 g-4 ">
-
             {
                 courses.map(course => <Service
                     key={course.name}
