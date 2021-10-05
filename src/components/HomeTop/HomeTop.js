@@ -12,7 +12,8 @@ const HomeTop = () => {
                 <div className="col-md-5 text-start ms-4">
                     <h1 className="fs-1 fw-bolder">The Prodigious eLearning Courses for you</h1>
                     <hr className="w-25 ms-2 home-ul" />
-                    <p className="fw-light">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <p className="fw-light">Learning that gets you
+                        Skills for your present (and your future). Get started with us.</p>
                     <p><FontAwesomeIcon className="me-3 fa-2x fontawesome-home" icon={faLightbulb} />Creative Study Pattern</p>
                     <p><FontAwesomeIcon className="me-3 fa-2x fontawesome-home" icon={faBookOpen} />Quick Crash Courses</p>
                     <p><FontAwesomeIcon className="me-3 fa-2x fontawesome-home" icon={faTachometerAlt} />Provided with Experimental Examples</p>
